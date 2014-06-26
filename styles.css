@@ -1,1 +1,115 @@
+.container {
+	width: 1100px;
+	max-width: 90%;
+}
 
+.welcome {
+	width: 1000px;
+	max-width: 90%;
+	height: 200px;
+	max-height: 20%;
+	margin: auto;
+	background-color: #40E0D0;
+	padding: 20px 20px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: Impact;
+}
+
+.bigWelcome {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: Impact;
+}
+
+.footnote {
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-family: gill sans;
+}
+
+.intro {
+	width: 60%;
+	height: 20%;
+	background: #D3D3D3;
+	color: white;
+	margin: auto;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-family: gill sans;
+	font-size: 17px;
+	text-align: justify;
+}
+	
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+	background: #DCDCDC;
+	border-radius: 15px;
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+table.content td {
+	padding: 0.5em 1em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+body {
+	background: #D3D3D3;
+	width: 100%;
+}
+
+a {
+	color: #FF69B4;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+footer {
+	height: 50px;
+	padding: 40px 5% 0 5%;
+	color: #888888;
+	text-align: center;
+	position: relative;
+	font-size: 14px;
+}
+
+.footer {
+	vertical-align: bottom;
+	height: 300px;
+	max-height: 50%;
+	width: 1000px;
+	max-width: 90%;
+	background-color: #D3D3D3;
+	color: black;
+	font-size: 14px;
+	font-family: gill sans;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+div {
+	display: block;
+}
